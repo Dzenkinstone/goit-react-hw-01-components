@@ -18,7 +18,7 @@ export const App = () => {
         alignItems: 'center',
         fontSize: 30,
         color: '#010101',
-        marginBottom: '50px',
+        margin: '50px 0px',
       }}
     >
       <Profile
