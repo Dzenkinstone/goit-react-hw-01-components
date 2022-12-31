@@ -1,0 +1,37 @@
+.profile {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 5px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.tag,
+.location {
+  font-size: 20px;
+  color: grey;
+}
+
+.stats {
+  display: flex;
+}
+
+.item {
+  font-size: 20px;
+  padding: 26px;
+  border: 1px solid rgb(192, 192, 192);
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+}
+
+.label {
+  color: rgb(169, 169, 169);
+}

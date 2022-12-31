@@ -1,0 +1,39 @@
+.transactionHistory {
+  font-size: 26px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.tableSort {
+  border-radius: 5px 0px 0px 0px;
+  color: white;
+  background: rgb(0, 181, 226);
+  padding: 15px;
+  border-right: 1px solid;
+}
+
+.tableSort:nth-child(2) {
+  border-radius: 0px;
+}
+
+.tableSort:last-child {
+  border-radius: 0px 5px 0px 0px;
+}
+
+.tableSort:last-child,
+.transactionDescription:last-child {
+  border-right: none;
+}
+
+.transactionDescription {
+  padding: 15px 100px;
+  border-right: 1px;
+  border-right: 2px solid #e6e6fa;
+}
+
+.transactionRow {
+  background: #f8f8ff;
+}
+
+.transactionRow:nth-child(2n + 1) {
+  background: white;
+}
